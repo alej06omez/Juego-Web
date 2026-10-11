@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to bottom, #ff66cc, #ffccff);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+/* Contenedores principales */
+.birthday-container0,
+.birthday-container1,
+.birthday-container2,
+.birthday-container3,
+.birthday-container4 {
+  margin: 10px auto;
+  padding: 20px;
+  width: 45%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.birthday-container0{
+    margin: 10px auto;
+}
+.birthday-container1{
+    margin-left: 20px;
+}
+.birthday-container2{
+    margin-left: 20px;
+}
+.birthday-container3{
+    margin-left: 20px;
+}
+.birthday-container4{
+    margin-left: 20px;
+}
+
+/* Colores distintos para cada bloque */
+.birthday-container0 { background-color: #ff3399; }
+.birthday-container1 { background-color: #cc33ff; }
+.birthday-container2 { background-color: #33ccff; }
+.birthday-container3 { background-color: #ff9933; }
+.birthday-container4 { background-color: #66cc33; }
+
+/* Mensajes */
+.message {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+}
+
+/* Botón estilo retro */
+.start-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #ff0066;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.start-btn:hover {
+  background: #ff3399;
+  transform: scale(1.1);
+}
+
+
+/* Animación retro */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* Mensajes con rebote */
+.message {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+  animation: bounce 2s infinite;
+}
+
+/* Botón estilo retro con rebote */
+.start-btn {
+  margin-top: 15px;
+  padding: 30px 60px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #ff0066;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background 0.3s ease;
+  animation: bounce 1.5s infinite;
+}
+
+.start-btn:hover {
+  background: #ff3399;
+  transform: scale(1.1);
+}
