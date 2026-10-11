@@ -2,8 +2,8 @@
 body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   background: linear-gradient(to bottom, #ff66cc, #ffccff);
-  margin: 0;
-  padding: 0;
+  margin: 15%;
+  padding: 50px;
   color: #fff;
   text-align: center;
 }
@@ -14,27 +14,28 @@ body {
 .birthday-container2,
 .birthday-container3,
 .birthday-container4 {
+  margin-top: 20px;
   margin: 10px auto;
   padding: 20px;
   width: 45%;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .birthday-container0{
-    margin: 10px auto;
+    margin: 0 auto;
 }
 .birthday-container1{
-    margin-left: 20px;
+    margin: 0 auto;
 }
 .birthday-container2{
-    margin-left: 20px;
+    margin: 0 auto;
 }
 .birthday-container3{
-    margin-left: 20px;
+    margin: 0 auto;
 }
 .birthday-container4{
-    margin-left: 20px;
+    margin: 0 auto;
 }
 
 /* Colores distintos para cada bloque */
